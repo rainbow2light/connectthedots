@@ -1,0 +1,21 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>The HTML5 test</title>
+    </head>
+    <body>
+        <h1>User data</h1>
+        <div id="user-template">
+            <h2>Name</h2>
+            <span id="one">XXXX</span>
+            <h2>Skillset</h2>
+            <span id="two">xxxx</span>
+        </div>
+        <script>
+            const userList=['Maria','Bluesky','bobzoom'];
+            console.log(userList);
+            document.getElementById('one').innerHTML='Bobzoom';
+            document.getElementById('two').innerHTML='Painter';
+        </script>
+    </body>
+</html>
